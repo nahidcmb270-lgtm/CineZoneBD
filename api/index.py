@@ -1649,7 +1649,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {{ ad_settings.ad_footer | safe }}
 </body></html>
 """
-
+...
 detail_html = """
 <!DOCTYPE html>
 <html lang="en">
@@ -2565,7 +2565,7 @@ body.light-mode .episode-item {
     });
 </script>
 {{ ad_settings.ad_footer | safe }}
-</body></html>
+</body></html> ... 
 
 
 
