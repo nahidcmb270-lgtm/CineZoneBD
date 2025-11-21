@@ -2499,15 +2499,15 @@ body.light-mode .episode-item {
         <div class="footer-column community-section">
             <h4 class="footer-column-title">Join Our Community</h4>
             <div class="telegram-buttons-container">
-                <a href="https://t.me/+Uj3tb0Qpr59iOTM1" target="_blank" class="telegram-button notification">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button notification">
                     <i class="fas fa-bell"></i>
                     <span><strong>New Content Alerts</strong><small>Get notified for every new upload</small></span>
                 </a>
-                <a href="https://t.me/+PD1WvVZzW6FlODZl" target="_blank" class="telegram-button request">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button request">
                     <i class="fas fa-comments"></i>
                     <span><strong>Join Request Group</strong><small>Request your favorite content</small></span>
                 </a>
-                <a href="https://t.me/PrimeCineZone" target="_blank" class="telegram-button backup">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button backup">
                     <i class="fas fa-shield-alt"></i>
                     <span><strong>Backup Channel</strong><small>Join for future updates</small></span>
                 </a>
@@ -2644,7 +2644,7 @@ wait_step1_html = """
 <body>
     <!-- Fixed Header HTML -->
     <header class="fixed-header">
-        <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="Website Logo">
+        <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="Website Logo">
     </header>
 
     <div id="top-content" class="page-section">
@@ -2758,7 +2758,7 @@ wait_step2_html = """
 </head>
 <body>
     <header class="fixed-header">
-        <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="Website Logo">
+        <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="Website Logo">
     </header>
 
     <div id="top-content" class="page-section">
@@ -2784,7 +2784,7 @@ wait_step2_html = """
             <a href="{{ next_step_url }}" class="action-btn ready">Continue to Final Step</a>
         </div>
     </div>
-    <a href="https://t.me/PrimeCineZone" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <a href="https://t.me/TGLinkBase" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
   <footer class="main-footer">
       <p>&copy; 2025 {{ website_name }}. All Rights Reserved.</p>
   </footer>
@@ -3943,7 +3943,7 @@ create_website_html = """
         <p>আমরা খুব যত্ন সহকারে এবং আপনার চাহিদা অনুযায়ী আধুনিক ও আকর্ষণীয় ওয়েবসাইট তৈরি করে দেই। আমাদের বিশেষজ্ঞ টিম আপনাকে সেরা মানের পরিষেবা এবং সার্বক্ষণিক সহায়তা প্রদান করবে।</p>
         <p>আপনার স্বপ্নের ওয়েবসাইটটি তৈরি করতে আজই আমাদের সাথে যোগাযোগ করুন।</p>
         
-        <a href="https://t.me/Prime_Nayem" target="_blank" class="contact-button">
+        <a href="https://t.me/ctgmovies23" target="_blank" class="contact-button">
             <i class="fa-brands fa-telegram"></i>
             <span>Contact Us on Telegram</span>
         </a>
@@ -4067,7 +4067,7 @@ def send_to_telegram(movie_data, movie_id):
         "inline_keyboard": [
             [{"text": "✅ Watch on Website", "url": watch_url}],
             [{"text": "🤔 How to Download?", "url": HOW_TO_DOWNLOAD_URL}],
-            [{"text": "🔔 Join Our Backup Channel", "url": "https://t.me/PrimeCineZone"}] # <-- নতুন বাটন
+            [{"text": "🔔 Join Our Backup Channel", "url": "https://t.me/TGLinkBase"}] # <-- নতুন বাটন
         ]
     }
     reply_markup = json.dumps(keyboard)
