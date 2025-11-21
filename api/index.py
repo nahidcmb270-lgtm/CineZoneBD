@@ -173,7 +173,8 @@ index_html = """
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>{{ website_name }} - Your Entertainment Hub</title>
-<link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+<!-- Updated Favicon -->
+<link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
 <a name="description" content="Watch and download the latest movies and series on {{ website_name }}. Your ultimate entertainment hub.">
 <meta name="keywords" content="movies, series, download, watch online, {{ website_name }}, bengali movies, hindi movies, english movies">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -960,7 +961,8 @@ body.light-mode .main-footer {
 <header class="main-header">
     <div class="container header-content">
     <a href="{{ url_for('home') }}" class="logo">
-    <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="{{ website_name }} Logo" style="height: 45px; width: auto;">
+    <!-- Updated Header Logo -->
+    <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="{{ website_name }} Logo" style="height: 45px; width: auto;">
 </a>
     <div style="display: flex; align-items: center;">
         <div class="theme-toggle">
@@ -1284,7 +1286,8 @@ body.light-mode .main-footer {
         <!-- Section 1: About the Site -->
         <div class="footer-column about-section">
             <a href="{{ url_for('home') }}" class="footer-logo">
-                <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="{{ website_name }} Logo">
+                <!-- Updated Footer Logo -->
+                <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="{{ website_name }} Logo">
             </a>
             <p class="footer-description">
                 Your ultimate destination for the latest movies and web series. We are dedicated to providing a seamless entertainment experience.
@@ -1646,7 +1649,6 @@ document.addEventListener('DOMContentLoaded', function() {
 {{ ad_settings.ad_footer | safe }}
 </body></html>
 """
-
 detail_html = """
 <!DOCTYPE html>
 <html lang="en">
