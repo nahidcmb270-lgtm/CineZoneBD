@@ -3332,7 +3332,7 @@ edit_html = """
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Content - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -3476,7 +3476,7 @@ download_hub_html = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Download Hub: {{ movie.title }} - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -3590,21 +3590,21 @@ download_hub_html = """
 <!-- Professional Footer -->
 <footer class="professional-footer">
     <div class="footer-grid">
-        <div class="footer-column about-section"><a href="{{ url_for('home') }}" class="footer-logo"><img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="{{ website_name }} Logo"></a><p class="footer-description">Your ultimate destination for the latest movies and web series. We are dedicated to providing a seamless entertainment experience.</p></div>
+        <div class="footer-column about-section"><a href="{{ url_for('home') }}" class="footer-logo"><img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="{{ website_name }} Logo"></a><p class="footer-description">Your ultimate destination for the latest movies and web series. We are dedicated to providing a seamless entertainment experience.</p></div>
         <div class="footer-column links-section"><h4 class="footer-column-title">Site Links</h4><ul><li><a href="{{ url_for('dmca') }}"><i class="fas fa-gavel"></i> DMCA Policy</a></li><li><a href="{{ url_for('disclaimer') }}"><i class="fas fa-exclamation-triangle"></i> Disclaimer</a></li><li><a href="{{ url_for('create_website') }}"><i class="fas fa-palette"></i> Create Your Website</a></li></ul></div>
         <!-- Section 3: Join Our Community -->
         <div class="footer-column community-section">
             <h4 class="footer-column-title">Join Our Community</h4>
             <div class="telegram-buttons-container">
-                <a href="https://t.me/+Uj3tb0Qpr59iOTM1" target="_blank" class="telegram-button notification">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button notification">
                     <i class="fas fa-bell"></i>
                     <span><strong>New Content Alerts</strong><small>Get notified for every new upload</small></span>
                 </a>
-                <a href="https://t.me/+PD1WvVZzW6FlODZl" target="_blank" class="telegram-button request">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button request">
                     <i class="fas fa-comments"></i>
                     <span><strong>Join Request Group</strong><small>Request your favorite content</small></span>
                 </a>
-                <a href="https://t.me/PrimeCineZone" target="_blank" class="telegram-button backup">
+                <a href="https://t.me/TGLinkBase" target="_blank" class="telegram-button backup">
                     <i class="fas fa-shield-alt"></i>
                     <span><strong>Backup Channel</strong><small>Join for future updates</small></span>
                 </a>
@@ -3757,7 +3757,7 @@ series_hub_html = """
     <div class="container footer-grid">
         <div class="footer-column about-section">
             <a href="{{ url_for('home') }}" class="footer-logo">
-                <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="{{ website_name }} Logo">
+                <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="{{ website_name }} Logo">
             </a>
             <p class="footer-description">Your ultimate destination for the latest movies and web series. We are dedicated to providing a seamless entertainment experience.</p>
         </div>
@@ -3772,15 +3772,15 @@ series_hub_html = """
         <div class="footer-column community-section">
             <h4 class="footer-column-title">Join Our Community</h4>
             <div class="telegram-buttons-container">
-                <a href="https://t.me/+Uj3tb0Qpr59iOTM1" target="_blank" class="telegram-button notification">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button notification">
                     <i class="fas fa-bell"></i>
                     <span><strong>New Content Alerts</strong><small>Get notified for every new upload</small></span>
                 </a>
-                <a href="https://t.me/+PD1WvVZzW6FlODZl" target="_blank" class="telegram-button request">
+                <a href="https://t.me/+YhqvLHXHdIViNTRl" target="_blank" class="telegram-button request">
                     <i class="fas fa-comments"></i>
                     <span><strong>Join Request Group</strong><small>Request your favorite content</small></span>
                 </a>
-                <a href="https://t.me/PrimeCineZone" target="_blank" class="telegram-button backup">
+                <a href="https://t.me/TGLinkBase" target="_blank" class="telegram-button backup">
                     <i class="fas fa-shield-alt"></i>
                     <span><strong>Backup Channel</strong><small>Join for future updates</small></span>
                 </a>
