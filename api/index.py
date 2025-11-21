@@ -2861,7 +2861,7 @@ wait_step3_html = """
 </head>
 <body>
     <header class="fixed-header">
-        <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="Website Logo">
+        <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="Website Logo">
     </header>
 
     <div id="top-content" class="page-section">
