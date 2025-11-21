@@ -18,9 +18,9 @@ ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Nahid270")
 WEBSITE_NAME = os.environ.get("WEBSITE_NAME", "CineZoneBD")
 
 # --- START: NEW TELEGRAM SETTINGS (এই অংশটি যোগ করুন) ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "7118509903:AAEW56bKIJK29Wynt95GlXKTsBnS_ftivyI")
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "-1003115692072") # যেমন: "@yourchannelname" বা "-100123456789"
-HOW_TO_DOWNLOAD_URL = os.environ.get("HOW_TO_DOWNLOAD_URL", "https://t.me/Prime_Movie_Watch_Dawnload/98") # আপনার "How to Download" গাইডের লিংক
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "7995209759:AAFqir3wFLcW5WODmM6DfqSsivMq3X_ibH4")
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "-1002847575327") # যেমন: "@yourchannelname" বা "-100123456789"
+HOW_TO_DOWNLOAD_URL = os.environ.get("HOW_TO_DOWNLOAD_URL", "https://t.me/HowtoDowlnoad/29") # আপনার "How to Download" গাইডের লিংক
 # --- END: NEW TELEGRAM SETTINGS ---
 
 # --- Validate Environment Variables ---
