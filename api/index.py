@@ -1656,7 +1656,8 @@ detail_html = """
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>{{ movie.title if movie else "Content Not Found" }} - {{ website_name }}</title>
-<link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+<!-- LGOO CHANGED HERE (Favicon) -->
+<link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
 <meta name="description" content="{{ movie.overview|striptags|truncate(160) }}">
 <meta name="keywords" content="{{ movie.title }}, movie details, download {{ movie.title }}, {{ website_name }}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -2480,7 +2481,8 @@ body.light-mode .episode-item {
         <!-- Section 1: About the Site -->
         <div class="footer-column about-section">
             <a href="{{ url_for('home') }}" class="footer-logo">
-                <img src="https://i.postimg.cc/bwMx2P6J/IMG-20250817-043812-084-removebg-preview.png" alt="{{ website_name }} Logo">
+                <!-- LGOO CHANGED HERE (Footer Logo) -->
+                <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="{{ website_name }} Logo">
             </a>
             <p class="footer-description">
                 Your ultimate destination for the latest movies and web series. We are dedicated to providing a seamless entertainment experience.
@@ -2563,8 +2565,6 @@ body.light-mode .episode-item {
 </script>
 {{ ad_settings.ad_footer | safe }}
 </body></html>
-"""
-
 
 
 
