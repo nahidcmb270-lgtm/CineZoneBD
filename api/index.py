@@ -1649,7 +1649,9 @@ document.addEventListener('DOMContentLoaded', function() {
 {{ ad_settings.ad_footer | safe }}
 </body></html>
 """
-...
+# নিশ্চিত করুন এর আগের ভেরিয়েবলটি """ দিয়ে শেষ হয়েছে।
+# তারপর নিচের কোডটি শুরু হবে:
+
 detail_html = """
 <!DOCTYPE html>
 <html lang="en">
@@ -1657,7 +1659,7 @@ detail_html = """
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>{{ movie.title if movie else "Content Not Found" }} - {{ website_name }}</title>
-<!-- LGOO CHANGED HERE (Favicon) -->
+<!-- LOGO FIXED HERE -->
 <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
 <meta name="description" content="{{ movie.overview|striptags|truncate(160) }}">
 <meta name="keywords" content="{{ movie.title }}, movie details, download {{ movie.title }}, {{ website_name }}">
@@ -2482,7 +2484,7 @@ body.light-mode .episode-item {
         <!-- Section 1: About the Site -->
         <div class="footer-column about-section">
             <a href="{{ url_for('home') }}" class="footer-logo">
-                <!-- LGOO CHANGED HERE (Footer Logo) -->
+                <!-- LOGO CHANGED HERE (Footer) -->
                 <img src="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" alt="{{ website_name }} Logo">
             </a>
             <p class="footer-description">
@@ -2565,8 +2567,9 @@ body.light-mode .episode-item {
     });
 </script>
 {{ ad_settings.ad_footer | safe }}
-</body></html> ... 
-
+</body></html>
+"""
+# নিশ্চিত করুন যে কোডের শেষে এই তিনটি কোটেশন (""") আছে
 
 
 # =======================================================================================
