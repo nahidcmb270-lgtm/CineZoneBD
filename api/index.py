@@ -4349,7 +4349,7 @@ def movies_by_platform(platform_name):
 genres_html = """
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /><title>Browse by Genre - {{ website_name }}</title>
-<link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+<link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
   :root { --primary-color: #E50914; --bg-color: #141414; --card-bg: #1a1a1a; --text-light: #f5f5f5; }
