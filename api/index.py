@@ -2584,7 +2584,7 @@ wait_step1_html = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Generating Link... (Step 1/3) - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     {{ ad_settings.ad_header | safe }}
@@ -2677,7 +2677,7 @@ wait_step1_html = """
             <a href="{{ next_step_url }}" class="action-btn ready">Continue</a>
         </div>
     </div>
-    <a href="https://t.me/PrimeCineZone" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <a href="https://t.me/TGLinkBase" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
   <footer class="main-footer">
       <p>&copy; 2025 {{ website_name }}. All Rights Reserved.</p>
   </footer>
@@ -2720,7 +2720,7 @@ wait_step2_html = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Processing... (Step 2/3) - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     {{ ad_settings.ad_header | safe }}
@@ -2832,7 +2832,7 @@ wait_step3_html = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Link Ready! (Step 3/3) - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     {{ ad_settings.ad_header | safe }}
@@ -2928,7 +2928,7 @@ request_html = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us / Report - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         :root { --primary-color: #E50914; --bg-color: #141414; --card-bg: #1a1a1a; --text-light: #f5f5f5; --text-dark: #a0a0a0; }
@@ -2988,7 +2988,7 @@ admin_html = """
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel - {{ website_name }}</title>
-    <link rel="icon" href="https://i.postimg.cc/LXSgKV1P/IMG-20251021-044957-147.jpg" type="image/png">
+    <link rel="icon" href="https://i.postimg.cc/L4kGt56P/1000018917-removebg-preview.png" type="image/png">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
